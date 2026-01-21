@@ -1,4 +1,31 @@
-venv/
+# --- Dados ---
+data/*.csv
+data/*.json
+data/*.zip
+
+# --- Python ---
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# --- Conda ---
+.conda/
+conda-meta/
+
+# --- Jupyter Notebook ---
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Logs e Banco de Dados ---
+*.log
 *.sqlite
+.env
+
+# --- Sistema (Ubuntu) ---
+.DS_Store
+.directory
